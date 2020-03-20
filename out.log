@@ -1,0 +1,101 @@
+2020-03-16 11:41:45,347 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-16 11:41:59,176 [INFO ]  Retrieval intent parameter was left to its default value. This response selector will be trained on training examples combining all retrieval intents.
+2020-03-16 11:45:03,144 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/parse?q=hi'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /parse not found
+2020-03-16 11:45:26,803 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/parse?q=hi'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /parse not found
+2020-03-16 11:53:09,804 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/parse'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /parse not found
+2020-03-16 11:57:47,569 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005//conversations/1/messages'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL //conversations/1/messages not found
+2020-03-16 11:57:47,826 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2020-03-16 11:57:55,554 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/1/messages'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 474, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /conversations/1/messages
+2020-03-16 11:58:21,793 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/1/messages?=%27hi%27'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 474, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /conversations/1/messages
+2020-03-16 11:58:26,417 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/1/messages?=%27hi%27'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 474, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /conversations/1/messages
+2020-03-16 12:04:35,040 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005//webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL //webhooks/rest/webhook not found
+2020-03-16 12:04:41,574 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 452, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-03-16 12:04:41,750 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\roshni - skcript\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found

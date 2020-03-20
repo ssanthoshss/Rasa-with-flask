@@ -1,0 +1,52 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- cluster
+- my_cluster
+- additional_parking
+- not_possible_actions
+
+entities:
+- NUMBER
+
+responses:
+  utter_greet:
+  - text: Hey
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_cluster:
+  - text: At what cluster you have missed or lost your card?
+  utter_parking:
+  - text: May I know your name please.
+  utter_not_possible_actions:
+    - text: Sorry this is not possible. Thank you.
+
+actions:
+- action_cluster
+- action_parking
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_cluster
+- utter_parking
